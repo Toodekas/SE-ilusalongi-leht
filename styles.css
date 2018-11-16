@@ -6,9 +6,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-div {		
-	text-align: center;
-}
+
 a {
 	vertical-align: middle;
 	font-size: 2em;
@@ -24,8 +22,38 @@ h1 {
 h2 {
 	color: #122115;
 	font-family: "Palatino Linotype";
+	text-align: center;
 }
 p  {
 	color: black;
 	font-family: "Palatino Linotype";
+	line-height: 0.5;
 }
+ul  {
+	color: black;
+	font-family: "Palatino Linotype";
+}
+
+.tekstkeskel {
+	text-align: center;
+}
+
+.tulp {
+    float: left;
+}
+
+.vasak, .parem {
+  width: 25%;
+}
+
+.keskmine {
+  width: 50%;
+  background-color: #f7fff8;
+}
+
+.rida:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
