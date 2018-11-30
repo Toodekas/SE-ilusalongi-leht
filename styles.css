@@ -27,7 +27,6 @@ h2 {
 p  {
 	color: black;
 	font-family: "Palatino Linotype";
-	line-height: 0.5;
 }
 ul  {
 	color: black;
@@ -35,6 +34,10 @@ ul  {
     text-align:left;
     
 }
+.Lühitutvustus{
+    text-align: center;
+}
+
 
 .tekstkeskel {
 	text-align: center;
@@ -51,6 +54,16 @@ ul  {
 .keskmine {
   width: 50%;
   background-color: #f7fff8;
+}
+.nimekiri1{
+    width:70%;
+    float:left;
+}
+.nimekiri2{
+    width:30%;
+    text-align:center;
+    float:right;
+    line-height: normal;
 }
 
 .rida:after {
@@ -109,46 +122,44 @@ img {vertical-align: middle;}
 
 .numbertext {
   color: #ffffff;
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 13px;
+  padding: 8px 13px;
   position: absolute;
   top: 0;
 }
 
 .dot {
   cursor: pointer;
-  height: 14px;
-  width: 14px;
-  margin: 0 2px;
+  height: 13px;
+  width: 13px;
+  margin: 0 3px;
   background-color: #bbb;
-  border-radius: 50%;
+  border-radius: 45%;
   display: inline-block;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.4s ease;
 }
 
 .active, .dot:hover {
   background-color: #717271;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.3s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.3s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .3} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .3} 
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
