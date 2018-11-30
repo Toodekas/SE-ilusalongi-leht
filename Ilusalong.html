@@ -1,8 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>M&aumlnnilinna ilusalong</title>
 	<link rel="stylesheet" href="styles.css">
+    <script src="funk.js"></script>
   </head>
   <body>
   
@@ -20,9 +21,33 @@
 	  <a href="kontakt.html">Kontakt</a>
     </div>
 	
-    <div id="Slideshow"; class="tekstkeskel">
-	  <h1>Näidispilt mingi varasemad tööd vms</h1>
-      <p>Martini reklaamitud slideshow</p>
+    <div class="slideshow-container">
+
+      <div class="mySlides">
+        <img src="img1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        
+        <img src="img3.jpg" style="width:100%">
+      </div>
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+        </div>
     </div>
 	
     <div id="Lühitutvustus"; class="tekstkeskel">
